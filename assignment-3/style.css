@@ -9,11 +9,15 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, 250px);
 }
 
-h1 {
-  word-spacing: 10px;
+.header {
+  margin: 30px;
+}
+
+.header h1 {
+  display: inline;
   font-family: sans-serif;
 }
 
